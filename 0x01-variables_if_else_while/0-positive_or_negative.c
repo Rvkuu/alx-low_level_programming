@@ -8,7 +8,7 @@
  * return = 0
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -18,7 +18,7 @@ int main (void)
 	{
 		printf("%p is positive\n", n);
 	}
-	else if (n ==0)
+	else if (n == 0)
 	{
 		printf("%p is zero\n", n)
 	}
