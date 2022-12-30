@@ -3,12 +3,12 @@
 
 /**
  * main - Prints the numbers from 1 to 100, followed by a new line
- * but for multiples of three prints Fizz instrad of the number
+ * but for multiples of three prints Fizz instead of the number
  * and for the multiples of five prints Buzz
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	int i;
 
@@ -32,7 +32,7 @@ int main (void)
 		}
 		else
 		{
-			printf("%d", i);
+			printf(" %d", i);
 		}
 	}
 	printf("\n");
