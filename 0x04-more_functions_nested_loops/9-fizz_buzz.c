@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Printsnthe numbers from 1 to 100, followed by a new line
- * but for multiples of thre prints Fizz instead of the number
+ * main - Prints the numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instrad of the number
  * and for the multiples of five prints Buzz
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main (void)
 {
 	int i;
 
@@ -18,17 +18,17 @@ int main(void)
 		{
 			printf(" Fizz");
 		}
-				else if (1 % 5 == 0 && i % 3 != 0)
-				{
-					printf(" Buzz");
-				}
-				else if (i % 3 == 0 && i % 5 == 0)
-				{
-					printf(" FizzBuzz");
-				}
+		else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf(" Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz");
+		}
 		else if (i == 1)
 		{
-			printf("%d" , i);
+			printf("%d", i);
 		}
 		else
 		{
