@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	}
 
 	num = atoi(argv[1]);
-	reult = 0;
+	result = 0;
 
 	if (num < 0)
 	{
