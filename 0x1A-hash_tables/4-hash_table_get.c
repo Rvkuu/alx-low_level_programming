@@ -2,12 +2,12 @@
 
 /**
  * hash_table_get - Retreive the value associated with
-			a key in a hash table.
+ * a key in a hash table.
  * @ht: A pointer to the hash table.
  * @key: The key to get the value of.
  *
  * Return: If the key cannot be matched - NULL.
-	Otherwsie - the value associated with the key in ht.
+ *	Otherwsie - the value associated with the key in ht.
  */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
@@ -23,7 +23,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	node = ht->array[index];
-	while (node && strcmp(node->key, key) !=0)
+	while (node && strcmp(node->key, key) != 0)
 		node = node->next;
 
 	return ((node == NULL) ? NULL : node->value);
