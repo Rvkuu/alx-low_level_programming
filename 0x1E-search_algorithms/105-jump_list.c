@@ -26,7 +26,7 @@ p = 0;
 do {
 prev = list;
 p++;
-index = p * q;
+index = p *q;
 
 while (list->next && list->index < index)
 list = list->next;
